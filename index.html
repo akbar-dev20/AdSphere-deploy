@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 20px text-align;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #0073e6;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            overflow: hidden;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .btn {
+            display: inline-block;
+            background: #0073e6;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            cursor: pointer;
+            border: none;
+        }
+        .btn:hover {
+            background: #005bb5;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Website</h1>
+        <p>A simple, clean HTML & CSS template</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container" id="home">
+        <h2>About This Page</h2>
+        <p>This is a complete boilerplate template featuring modern HTML5 layout tags and internal CSS formatting. You can copy this code directly into a text editor, save it as an <code>index.html</code> file, and run it instantly in any web browser.</p>
+        <button class="btn" onclick="alert('Hello! Thanks for clicking.')">Click Me</button>
+    </div>
+
+    <div class="container" id="services">
+        <h2>Core Layout Blocks</h2>
+        <ul>
+            <li><strong>DOCTYPE:</strong> Tells the browser this is an HTML5 document.</li>
+            <li><strong>Head:</strong> Holds metadata, character sets, page titles, and stylesheet styles.</li>
+            <li><strong>Body:</strong> Contains the visible website structure, text, structural divs, and imagery.</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 My Clean Web Design. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
